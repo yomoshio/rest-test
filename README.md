@@ -18,13 +18,13 @@ This is a Python-based application with a PostgreSQL database, containerized usi
 
 ## Stop the services
 3. ```bash
-docker-compose down
+   docker-compose down
 
 
 ## If you testing
 4. ```bash
-source venv/bin/activate
-python -m app.main
+   source venv/bin/activate
+   python -m app.main
 
 
 
