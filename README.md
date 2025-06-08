@@ -20,14 +20,10 @@ This is a Python-based application with a PostgreSQL database, containerized usi
 3. ```bash
    docker-compose down
 
-
 ## If you testing
 4. ```bash
    source venv/bin/activate
    python -m app.main
-
-
-
 
 ### Notes
 - The `docker-compose.yml` includes a `db` service with PostgreSQL and links it to the `app` service. The `populate_db` script runs after `app.main` using a `bash -c` command.
