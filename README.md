@@ -20,7 +20,7 @@ This is a Python-based application with a PostgreSQL database, containerized usi
 3. ```bash
    docker-compose down
 
-## If you testing
+## If you debug
 4. ```bash
    source venv/bin/activate
    python -m app.main
@@ -30,3 +30,6 @@ This is a Python-based application with a PostgreSQL database, containerized usi
 - The `.env` file is used to pass environment variables to both services.
 - The Dockerfile assumes a `requirements.txt` file exists in the root directory. Ensure it includes all necessary Python packages (e.g., `psycopg2` for PostgreSQL, etc.).
 - The README provides basic setup and usage instructions. Adjust the repository URL and additional details as needed.
+
+5. Testing
+   Just go to tour_url:PORT/docs 
