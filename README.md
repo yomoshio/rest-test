@@ -10,22 +10,22 @@ This is a Python-based application with a PostgreSQL database, containerized usi
 1. Clone the repository:
    ```bash
    git clone <your-repo-url>
-   cd <your-repo-directory>```
+   cd <your-repo-directory>
 
 ## Start the services
 2. ```bash
-    docker-compose up --build``` 
+    docker-compose up --build
 
 ## Stop the services
 ```bash
-docker-compose down```
+docker-compose down
 
 
 ## If you testing
 ```bash
 source venv/bin/activate
 python -m app.main
-```
+
 
 
 
